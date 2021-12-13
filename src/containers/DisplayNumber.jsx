@@ -18,12 +18,12 @@ function mapReduxStateToReactProps(state) {
 		//		number={this.state.number}
 	};
 }
-function mapReduxDispatchToReactProps(props) {
-	return {
-		unit: props.unit,
-	};
-}
-export default connect(mapReduxStateToReactProps, mapReduxDispatchToReactProps)(DisplayNumber);
+// function mapReduxDispatchToReactProps() {
+// 	return {
+		
+// 	};
+// }
+export default connect(mapReduxStateToReactProps)(DisplayNumber);
 
 // connect 란 함수가
 // 	render() {
